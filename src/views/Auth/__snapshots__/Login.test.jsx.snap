@@ -9,29 +9,22 @@ exports[`should allow the user to log in 1`] = `
   <form
     class="loginForm"
   >
-    <label
-      for="email"
-    >
+    <label>
       Email
+      <input
+        id="email"
+        name="email"
+        type="email"
+      />
     </label>
-    <input
-      id="email"
-      name="email"
-      type="email"
-      value=""
-    />
-     
-    <label
-      for="password"
-    >
+    <label>
       Password
+      <input
+        id="password"
+        name="password"
+        type="password"
+      />
     </label>
-    <input
-      id="password"
-      name="password"
-      type="password"
-      value=""
-    />
     <button
       aria-label="Sign In"
       type="submit"

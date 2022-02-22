@@ -40,15 +40,14 @@ export default function Login() {
     <>
       <h3>You must log in to view the page at {from.pathname}</h3>
       <form onSubmit={handleLogin} className={styles.loginForm}>
-        <label>
-          Email
-          <input
-            id="email"
-            name="email"
-            type="email"
-            onChange={(event) => handleFormChange(event)}
-          />
-        </label>
+        <label htmlFor="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          onChange={(event) => handleFormChange(event)}
+        />
+
         <label>
           Password
           <input
